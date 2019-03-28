@@ -58,12 +58,9 @@ Below are a bunch of questions and indications of things to do. For each indicat
 ### Names of people you have worked with on this assignment
 * List everyone's names and uniqnames who have worked on this assignment with you, **including your own name, but make sure YOUR name is first and bold**
 * Like this:
-* **Jackie Cohen (jczetta)**
-* Yea-Ree Chang (cyearee)
-* Ruchi Ookalkar (ruchido)
-* Innocent Obi (innoobi)
-* Zhen Wang (alejwang)
-* etc.
+* **Pengwei Cui (cpengwei)**
+* Zuyi Cai (zuyicai)
+
 
 ## Questions & code instructions
 
@@ -173,6 +170,7 @@ I found that this regular expression is useful when the multiline mode is enable
 It's used to determine whether the input is valid or not. If the input is valid, we get the blue text. Otherwise, we get the red error.
 
 * **What's different about the syntax of conditional statements in JavaScript, compared to Python?**
+
 First, JavaScript write conditions in parentheses, but Python do not.
 Second, Python uses indentation. In Python IF and ELSE statements have the same indentation, but JavaScript do not.
 Third, Python uses indentation to write statements, but JavaScript uses curly brackets.
