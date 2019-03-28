@@ -76,9 +76,14 @@ Some JavaScript code
 
 * **What does a code comment look like in JavaScript? What character/s do you have to put before a comment?**
 
+A code comment looks like a grey italics in JavaScript. We need to put `//` before a comment.
+
 * **Explain what needs to happen to get a JavaScript program to "run", given the JavaScript you've seen in this assignment.**
 
+We need to have some HTML and CSS codes. A JavaScript program runs based on them. And we need a browser to run those codes.
+
 * **What functions in JavaScript seem to be similar in function to the `print` function in Python? (There are two.) Why might you use one and not the other? Explain briefly.**
+
 The first one is `alert`.
 The second one is `console.log`.
 I learn that for debugging purpose, it's better to use `console.log`. But, when we simply want to display data, `alert` might not be a bad choice.
@@ -89,9 +94,11 @@ I need to comment out the code `alert("hello")`;.
 Add code `alert(new Date())` to create a pop-up box containing the current date and time.
 
 * **How can you put your own name at the top where it currently says "A name"? Explain very briefly how to do so, and replace `A name` in the web page with your own name.**
+
 Change the `A name` in `document.querySelector('h1').innerHTML = "A name" ` to my own name.
 
 * **What does the word `document` represent in this code? Explain briefly.**
+
 The document represents a document object. We need to use the document object to access and do things to HTML.
 
 * **What is happening in line 12 (
@@ -103,7 +110,7 @@ The document represents a document object. We need to use the document object to
 
 * **What color would the background of this page be <u>if there were no JavaScript in this page</u>?**
 
-White
+White.
 
 * **Why are there a couple of gray boxes on the screen with a different colored border? How could you edit this code to make them a different color? Explain briefly. Then edit the code to make those boxes some shade of blue, of your choosing.**
 
@@ -160,12 +167,13 @@ Because when we click the `Wow` button, it will call the function `handleClick()
     }
 </style>
 ```
-The codes above enable that when we get an error, it will be red. When we are correct, it will be blue.
+The codes above enable that when we get an error message, it will be red. When we get a correct message, it will be blue.
+
 * **What is this line `var regex = /^[a-zA-Z]+$/;` helping with? And if you googled something to figure that out, what did you google, and what, briefly, did you learn? (If you didn't need to google, you can leave that out, but explain briefly what that line is helping the program do, anyway.)**
 
 I know it's a regular expression. And I tested `/^[a-zA-Z]+$/` in the website (https://regexr.com/).
 
-I found that this regular expression is useful when the multiline mode is enabled. It will match only a single word. In another word, it won't match anything, if we have more than one word or even a word followed by a blank space in our inputs.
+I found that this regular expression is useful when the multiline mode is enabled. It will match only a single word. In another word, it won't match anything, if we have more than one word or even a word followed by a blank space in our input.
 
 It's used to determine whether the input is valid or not. If the input is valid, we get the blue text. Otherwise, we get the red error.
 
